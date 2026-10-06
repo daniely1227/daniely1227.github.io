@@ -32,7 +32,7 @@ Open <http://127.0.0.1:4000>. Jekyll rebuilds the site when source files change.
 
 GitHub Pages builds the Jekyll site from the root; no separate generated-site folder or manual build step is needed.
 
-For a new public repository, upload the current site source rather than copying the development/checkpoint Git history. The uploaded resume has been removed from the current source tree, but earlier development commits may still contain it.
+The uploaded resume has been removed from the project folders and purged from local Git history. Do not add source attachments to the public repository. This local cleanup does not remove copies from any remote repository or external backup.
 
 ## Run Lighthouse
 

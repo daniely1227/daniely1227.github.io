@@ -21,8 +21,8 @@ The user wants a light-only, text-first document feel with whitespace, professio
 
 **How to apply:** Preserve the restrained design rather than turning it into a marketing landing page.
 
-Use a clean source-only repository for public GitHub publishing rather than pushing development checkpoint history containing source uploads. The phone number is not approved for public display.
+The user requires the source resume file removed from project folders, including uploads and attachments, and from local Git history. Never reintroduce it. The phone number is not approved for public display.
 
-**Why:** Initial development checkpoints included the uploaded resume; removing it from the current tree does not remove it from old commits.
+**Why:** The user explicitly requested deletion of the source resume and approved purging local history.
 
-**How to apply:** Before any public GitHub push, inspect what history will be transferred and avoid publishing source attachments or unapproved contact information.
+**How to apply:** Before any public GitHub push or restoration from a clone or backup, inspect the transferred files and history. Avoid reintroducing source attachments or unapproved contact information.
