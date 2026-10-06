@@ -1,0 +1,1 @@
+- [Portfolio scope](portfolio-scope.md) — root-only Jekyll, resume-only factual content, restrained document design, and clean-history public publishing.

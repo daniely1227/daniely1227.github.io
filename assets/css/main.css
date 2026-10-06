@@ -18,7 +18,6 @@
 
 html {
   background: var(--paper);
-  scroll-behavior: smooth;
 }
 
 body {
@@ -269,8 +268,3 @@ hr {
   }
 }
 
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-}

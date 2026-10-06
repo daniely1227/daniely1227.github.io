@@ -16,3 +16,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - .local
+  - .cache
+  - .agents
+  - .conversation
+  - .replit

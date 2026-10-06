@@ -9,7 +9,7 @@ description: "Daniel Yun is a full-time MBA candidate at UC Berkeley Haas with e
 
 ## Background
 
-My work has included investment banking, Americas infrastructure private equity, and LNG-to-power project management. My education includes an MBA at UC Berkeley Haas and a BA in Global Economics from Sung Kyun Kwan University.
+My work has included investment banking, Americas infrastructure private equity, and LNG-to-power project management. I hold a BA in Global Economics from Sung Kyun Kwan University.
 
 ## Explore
 

@@ -32,6 +32,8 @@ Open <http://127.0.0.1:4000>. Jekyll rebuilds the site when source files change.
 
 GitHub Pages builds the Jekyll site from the root; no separate generated-site folder or manual build step is needed.
 
+For a new public repository, upload the current site source rather than copying the development/checkpoint Git history. The uploaded resume has been removed from the current source tree, but earlier development commits may still contain it.
+
 ## Run Lighthouse
 
 1. Start the local preview with `bundle exec jekyll serve`.
@@ -39,3 +41,23 @@ GitHub Pages builds the Jekyll site from the root; no separate generated-site fo
 3. Open Developer Tools → **Lighthouse**, run an audit for both Mobile and Desktop, and review Performance, Accessibility, Best Practices, and SEO.
 
 The goal is at least 90 in each category. Use the audit findings to guide any future changes.
+
+### Verified local results
+
+Latest Lighthouse runs on October 6, 2026:
+
+| Page | Mobile Performance | Desktop Performance | Accessibility | Best Practices | SEO |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Home | 99 | 100 | 100 | 100 | 100 |
+| About | 98 | 100 | 100 | 100 | 100 |
+| Work Experience | 100 | 100 | 100 | 100 | 100 |
+| Contact | 99 | 100 | 100 | 100 | 100 |
+
+Accessibility, Best Practices, and SEO results were 100 on both mobile and desktop. Scores can vary with the test environment.
+
+## Choices and assumptions
+
+- System fonts provide professional serif headings and neutral sans-serif body text without external font requests.
+- GitHub Pages-supported Jekyll plugins provide SEO tags and a sitemap. The site uses no JavaScript or third-party trackers.
+- A standalone personal biography was not supplied, so it is marked as a placeholder.
+- The supplied email address is approved for public display; the phone number is not displayed.
