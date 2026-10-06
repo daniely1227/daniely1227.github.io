@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="site-name" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+        {% include site-nav.html %}
+      </div>
+    </header>
+
+    <main id="main" class="page-content">
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>

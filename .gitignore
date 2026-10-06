@@ -9,7 +9,11 @@ out-tsc
 .expo-shared
 
 # dependencies
-node_modules
+_site/
+.bundle/
+.jekyll-cache/
+.sass-cache/
+vendor/
 
 # IDEs and editors
 /.idea

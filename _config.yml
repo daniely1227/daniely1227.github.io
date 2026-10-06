@@ -1,0 +1,18 @@
+title: Daniel Yun
+description: "Daniel Yun is a full-time MBA candidate at the UC Berkeley Haas School of Business with experience in investment banking, infrastructure private equity, and energy development."
+url: "https://daniely1227.github.io"
+baseurl: ""
+lang: en
+permalink: pretty
+markdown: kramdown
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - PLAN.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
